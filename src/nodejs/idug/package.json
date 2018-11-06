@@ -1,6 +1,6 @@
 {
   "name": "idug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common library to generate unique identifier that are globally unique.",
   "main": "idug",
   "scripts": {

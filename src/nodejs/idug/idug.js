@@ -15,6 +15,22 @@ module.exports = {
       .replace("-", "")
       .replace("-", "");
   },
+  undash: function() {
+    var idug2 = "";
+    idug2 = uuidv1();
+    return idug2
+      .replace("-", "")
+      .replace("-", "")
+      .replace("-", "");
+  },
+  un: function() {
+    var idug2 = "";
+    idug2 = uuidv1();
+    return idug2
+      .replace("-", "")
+      .replace("-", "")
+      .replace("-", "");
+  },
   short: function() {
     // Math.random should be unique because of its seeding algorithm.
     // Convert it to base 36 (numbers + letters), and grab the first 9 characters
