@@ -1,0 +1,27 @@
+{
+  "name": "idug",
+  "version": "1.0.0",
+  "description": "Common library to generate unique identifier that are globally unique.",
+  "main": "idug",
+  "scripts": {
+    "test": "node tests/idug.app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeIsabelle/idug.git"
+  },
+  "keywords": [
+    "idug",
+    "id",
+    "gui"
+  ],
+  "author": "J. Guillaume Isabelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillaumeIsabelle/idug/issues"
+  },
+  "homepage": "https://github.com/GuillaumeIsabelle/idug#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
