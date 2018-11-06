@@ -13,6 +13,7 @@ module.exports = {
     return idug2
       .replace("-", "")
       .replace("-", "")
+      .replace("-", "")
       .replace("-", "");
   },
   undash: function() {
@@ -21,12 +22,14 @@ module.exports = {
     return idug2
       .replace("-", "")
       .replace("-", "")
+      .replace("-", "")
       .replace("-", "");
   },
   un: function() {
     var idug2 = "";
     idug2 = uuidv1();
     return idug2
+      .replace("-", "")
       .replace("-", "")
       .replace("-", "")
       .replace("-", "");
